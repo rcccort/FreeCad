@@ -1,7 +1,6 @@
 Comandos para subir nuevos contenidos a github:
 
-git add --all
-git commit -m "mensage"
+git commit -am "mensage"
 git push origin master
 
 Ayuda de ObiJuan:
@@ -14,7 +13,7 @@ https://github.com/Obijuan/printbot_part_library
 
 Se te creará una copia del proyecto en tu cuenta (y al verás como si fuerse un proyecto más creado por tí).
 
-Ahora clonas ese repo a tu máquina local (con git clone direccion repositorio)
+Ahora clonas ese repo a tu máquina local (con git clone)
 
 Empieza por ejemplo por el rodamiento 623zz.  Te vas al directorio del proyecto y en bearings copias tu carpeta donde 623zz
 
@@ -26,11 +25,3 @@ Desde la página del proyecto (en tu cuenta) le das al botón verde que está en
 
 ¡Pruébalo!  :-)
 
-Mantener Actualizado el repositorio:
-
-situarse dentro del repositorio a actualizar.
-git remote add upstream https://github.com/direccion repositorio
-git fetch upstream
-git merge upstream/master
-
-el primer git solo se hace una vez...
